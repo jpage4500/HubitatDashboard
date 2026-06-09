@@ -8,7 +8,7 @@ By default, device tiles are unprotected - meaning anyone can click on one to se
 
 You can require the user to enter a PIN any time a command is sent to the hub or just for a specific device(s)
 
-![](<../.gitbook/assets/image (176).png>)
+![](<../.gitbook/assets/image (139).png>)
 
 Enabling this option will prompt you for a 4-digit PIN. Enter it and re-enter to confirm.
 

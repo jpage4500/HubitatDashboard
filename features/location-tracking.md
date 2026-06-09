@@ -6,7 +6,7 @@ description: Track device location
 
 Location Tracking will send the device's coordinates (lat/lng) to your Hub. Similar to Apple's "Find My" service or Life360 -- except no 3rd party server involved. The location is only sent to your Hubitat Hub.
 
-**NOTE**: This is an advanced feature and for many the [Presence Tracking](presence-tracking-geofence.md) (Geofence) feature is all you need.&#x20;
+**NOTE**: This is an advanced feature and for many the [Presence Tracking](presence-tracking-geofence.md) (Geofence) feature is all you need.
 
 * The major difference is Presence Tracking is only interested if you're inside or outside a predefined area (geofence). It will only notify the Hub when that happens.
 * Location Tracking passes the actual device location (lat/lng) continuously to the Hub -- allowing the Hub to do more with that location.
@@ -53,4 +53,4 @@ Because I'm relying on the Physical activity API the battery drain should be low
 * If you want to stop HD+ from doing Location Tracking, you just need to remove the connected Device
   * long-press on Device and select YES to the prompt
 
-<div align="left"><figure><img src="../.gitbook/assets/image (211).png" alt="" width="188"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (213).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (211).png" alt="" width="188"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (212).png" alt="" width="188"><figcaption></figcaption></figure></div>

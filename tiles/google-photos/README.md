@@ -1,30 +1,41 @@
 ---
-description: Add Google Photos album integration to your dashboard
+description: Add Google Photos Cloud album integration to your dashboard
 ---
 
 # Google Photos
 
 ## Description
 
-Add a Google Photos album to the dashboard to display a slide-show of your pictures
+Add a Google Photos Cloud album to the dashboard to display a slide-show of your pictures
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (33).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-## Install
+## Install Hubitat App/Driver
 
-* See [this](https://community.hubitat.com/t/project-google-photos-integration-for-dashboard-image-slide-show/72686) page for details
-  * Install using Hubitat Package Manager
-  * In Apps, add user app -> Google Photos
-  * Refer to [get-google-credentials.md](get-google-credentials.md "mention") to get the Client ID and Client Secret needed
-* Make sure to add any new Google Photos devices you create to MakerAPI so HD+ has access to them
+* Install [HPM](https://hubitatpackagemanager.hubitatcommunity.com/) (Hubitat Package Manager) to your Hubitat
+* Open HPM -> Install -> Search by keywords -> search for **Google Photos Cloud**
+
+## Install **Google Photos Cloud**
+
+* In Hubitat Apps section, click on Install User App -> **Google Photos Cloud**
+* Enter **Google Client ID / Secret**
+  * Refer to [get-google-credentials.md](get-google-credentials.md "mention") to get the Client ID and Client Secret (free)
+* Click **Authorize** to authorize this app with Google Photos
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+* Enter an album name and click on the little save icon next to it
+* Click **Create Album** button which will create a new Google Photos album and a child device on Hubitat with the same name
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (7).png" alt="" width="265"><figcaption></figcaption></figure></div>
+
+* Select any other options - such as how frequently the next image should display
+* **Don't forget to add this new child device to MakerAPI so HD+ can see it**
 
 ## Usage
 
 * HD+ will automatically handle and display these devices so there's nothing you need to do
 * Depending on the refresh interval you chose, the image will change automatically
-* When clicking on a photo, it'll appear full-screen
-  * Click on the right side of the screen to view the NEXT image
-  * Click on the left side of the screen to view the PREVIOUS image
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (32).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -47,7 +58,6 @@ Add a Google Photos album to the dashboard to display a slide-show of your pictu
 
 * Change the Transparency value to show more or less of the background
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (31).png" alt="" width="188"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (27).png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 * see [background.md](../../look-and-feel/background.md "mention") for more details
-

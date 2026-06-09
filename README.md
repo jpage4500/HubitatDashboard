@@ -30,17 +30,14 @@ My goal with this project is to create a dashboard with a great interface that's
 
 ### Screenshots
 
-![](<.gitbook/assets/landscape-login (1).png>)
+![](.gitbook/assets/landscape-login.png)
 
 ![](.gitbook/assets/landscape-nav-menu.png)
 
-![](<.gitbook/assets/landscape-edit-lock (1).png>)
+![](.gitbook/assets/landscape-edit-lock.png)
 
-![](<.gitbook/assets/landscape-options-light (1).png>)
+![](.gitbook/assets/landscape-options-light.png)
 
-![](<.gitbook/assets/landscape-display-options (1).png>)
-
-
+![](.gitbook/assets/landscape-display-options.png)
 
 <sup>_sha: 69bd5f3daef35b6314bb4b8e0ec393cc24a772fe58b2608ed6c7cdfe946a8195_</sup>
-

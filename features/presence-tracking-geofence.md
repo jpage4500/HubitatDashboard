@@ -29,7 +29,7 @@ I want to try and find a decent balance of being reliable but also not constantl
 This feature is only available if your device has cellular support (ie: not a WIFI only tablet). You can enable it under More Options -> Presence Tracking.
 
 * **Location**
-  * The first time you select Location it'll prompt you to grant Background Location permission. This is required for geofencing.&#x20;
+  * The first time you select Location it'll prompt you to grant Background Location permission. This is required for geofencing.
   * It'll also prompt for Activity Tracking but this is optional. Activity Tracking permission will notify the app when the OS _thinks_ your device is moving and HD+ will use this to supplement the geofencing
 * **Device**: Select any Hubitat device you want to update when your phone goes in and out of the geofence. You can select any 'switch' capable device or the "Mobile App Device" which is created automatically by the native Hubitat app.
   * NOTE: This is optional; If you don't select a device to update you can still use this feature with 'Show Notifications' to test the reliability of geofence notifications
@@ -39,9 +39,7 @@ This feature is only available if your device has cellular support (ie: not a WI
 * **Show Notifications**: Enable this to be alerted with a system notification when your device enters or exits the selected location
 * **Monitor Location**: Enable the feature; This is just a quick way to disable location tracking in the app without having to delete the locations you've already setup
 
-<figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
 
 ### Notes
 

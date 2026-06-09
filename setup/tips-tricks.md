@@ -32,11 +32,11 @@ description: General tips to make setting up HD+ easier
     * room will group all devices of the same room (ie: living room) into a folder
     * both will let you group devices of the same type and the same room into a folder (ie: living room lights)
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### Naming Devices
 
-* HD+ will try to guess the best device type for every Hubitat device. It does this by looking at the device capability, attributes and commands. It also will use the device name/label as well.&#x20;
+* HD+ will try to guess the best device type for every Hubitat device. It does this by looking at the device capability, attributes and commands. It also will use the device name/label as well.
 * For example, if you have a switch with "light" in it, a light device type will be used (vs a more generic switch device type). Other naming hints include:
   * a switch with the text "light" or "lamp" in it will be set as a light device type
   * a switch with the text "fan" in it will be set as a fan device type

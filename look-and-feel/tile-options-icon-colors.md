@@ -37,7 +37,7 @@ Select from one of the following image sources to browse icons
 * **Hubitat Device** - if you have any Hubitat devices which have an 'image' attribute such as Google Photos - you can use the image
 * **Enter URL...** - enter a custom URL or remove/clear the existing URL
 
-![](<../.gitbook/assets/image (163).png>)![](<../.gitbook/assets/image (148).png>)![](<../.gitbook/assets/image (189).png>)
+![](<../.gitbook/assets/image (163).png>) ![](<../.gitbook/assets/image (148).png>) ![](<../.gitbook/assets/image (189).png>)
 
 ### Icon Color
 
@@ -50,7 +50,4 @@ Select from one of the following image sources to browse icons
 
 * This controls the background color of the tile
 
-![](<../.gitbook/assets/image (118).png>)
-
-
-
+![](<../.gitbook/assets/image (111).png>)

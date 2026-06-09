@@ -6,7 +6,7 @@ description: PIN protect dashboard from being edited
 
 Require a PIN to edit any tiles or the dashboard layout
 
-![](<../.gitbook/assets/image (149).png>)
+![](<../.gitbook/assets/image (139).png>)
 
 Enabling this option will prompt you for a 4-digit PIN. Enter it and re-enter to confirm.
 

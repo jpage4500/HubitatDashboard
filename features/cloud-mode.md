@@ -6,7 +6,7 @@ Generally speaking, local mode is superior to cloud mode because while in local 
 
 ## Enabling Cloud Mode (the easy way)
 
-* On initial login, the app will prompt you to enable cloud mode detection.&#x20;
+* On initial login, the app will prompt you to enable cloud mode detection.
 * Selecting **YES** here will prompt you to enable location permission for the app
 * Grant the app location permission and the app will detect the Wifi Access Point you're currently connected to and use that for the future to determine local vs cloud mode.
 
@@ -46,4 +46,4 @@ So, in summary the best way to ensure the app switches accurately between local 
 * make sure the WiFi Access Point is set to the same network as your Hubitat Hub.
   * You can get this value by using the "Get Current SSID" button in the screenshot below.
 
-![](<../.gitbook/assets/image (201).png>)
+![](<../.gitbook/assets/image (78).png>)

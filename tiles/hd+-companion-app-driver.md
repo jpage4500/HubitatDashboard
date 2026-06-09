@@ -122,7 +122,7 @@ The HD+ Device driver supports PushableButton, which means you can use it as a v
 When pushed, an event is sent to the device which you can use to run a Tasker task (today, other actions will be added in the future)
 
 Use the "Button Commands" setting (see above) to set an action for each button press. You will need Tasker installed to use this\
-![](<../.gitbook/assets/image (52).png>)
+![](<../.gitbook/assets/image (51).png>)
 
 ## What Next?
 
