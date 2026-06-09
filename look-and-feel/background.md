@@ -15,4 +15,4 @@ To get started, select Background from the navigation drawer / menu and:
 
 ## Advanced
 
-* Use [Google Photos](../tiles/google-photos.md#use-google-photos-as-a-background) device as your background image
+* Use [Google Photos](../tiles/google-photos/README.md#use-google-photos-as-a-background) device as your background image

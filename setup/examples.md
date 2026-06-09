@@ -22,7 +22,7 @@ Here's some examples of dashboards I use, with descriptions of what they try to 
 
 **Location**: Kitchen
 
-**Purpose**: Time, [Weather](../tiles/weather-tiles/) and [rotating photos](../tiles/google-photos.md)
+**Purpose**: Time, [Weather](../tiles/weather-tiles/) and [rotating photos](../tiles/google-photos/README.md)
 
 Note: The image here is in the [background](../look-and-feel/background.md) with transparent tiles.
 
