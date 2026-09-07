@@ -20,6 +20,8 @@ There's also a [TestFlight beta](https://testflight.apple.com/join/Wdb6CEUh) whi
 Download on [Google Play](https://play.google.com/store/apps/details?id=com.jpage4500.hd), or join
 the [beta](https://play.google.com/apps/testing/com.jpage4500.hd) to get updates earlier.
 
+Google Play also offers an [internal](https://play.google.com/apps/internaltest/4700852576427104399) testing track. It gets updates right away - no delay. However, it's capped at the first 100 users who join.
+
 There's also a sideload version with a few features that aren't in the Play version — download the
 latest `.apk` from [Releases](https://github.com/jpage4500/HubitatDashboard/releases) and update from
 inside the app afterwards (**About → Check for updates**).
