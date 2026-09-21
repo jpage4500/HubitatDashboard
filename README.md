@@ -65,37 +65,37 @@ iPad, Android, Mac, Windows and Linux — and all traffic stays **local** to you
 
 ### iPhone
 
-| ![](resources/public/iphone-main.jpg) | ![](resources/public/iphone-glance.jpg) | ![](resources/public/iphone-edit.jpg) | ![](resources/public/iphone-thermostat.jpg) |
+| <img src="resources/public/iphone-main.jpg" width="185"> | <img src="resources/public/iphone-glance.jpg" width="185"> | <img src="resources/public/iphone-edit.jpg" width="185"> | <img src="resources/public/iphone-thermostat.jpg" width="185"> |
 | --- | --- | --- | --- |
 | Dashboard | Glance mode | Customize a tile | Tap to control |
 
 ### iPad
 
-| ![](resources/public/ipad-main.jpg) | ![](resources/public/ipad-glance.jpg) | ![](resources/public/ipad-rooms.jpg) |
+| <img src="resources/public/ipad-main.jpg" width="255"> | <img src="resources/public/ipad-glance.jpg" width="255"> | <img src="resources/public/ipad-rooms.jpg" width="255"> |
 | --- | --- | --- |
 | Dashboard | Glance mode | Jump to a room |
 
 On the wall, in landscape:
 
-| ![](resources/public/ipad-wall.jpg) | ![](resources/public/ipad-wall-glance.jpg) | ![](resources/public/ipad-cameras.jpg) |
+| <img src="resources/public/ipad-wall.jpg" width="255"> | <img src="resources/public/ipad-wall-glance.jpg" width="255"> | <img src="resources/public/ipad-cameras.jpg" width="255"> |
 | --- | --- | --- |
 | A whole house without scrolling | Glance mode | Any camera, full screen |
 
 ### Android
 
-| ![](resources/public/android-main.jpg) | ![](resources/public/android-glance.jpg) | ![](resources/public/android-cameras.jpg) | ![](resources/public/android-radar.jpg) |
+| <img src="resources/public/android-main.jpg" width="185"> | <img src="resources/public/android-glance.jpg" width="185"> | <img src="resources/public/android-cameras.jpg" width="185"> | <img src="resources/public/android-radar.jpg" width="185"> |
 | --- | --- | --- | --- |
 | Dashboard | Glance mode | Cameras | Radar |
 
 ### Desktop
 
-| ![](resources/public/desktop-radar.jpg) | ![](resources/public/desktop-photo.jpg) |
+| <img src="resources/public/desktop-radar.jpg" width="400"> | <img src="resources/public/desktop-photo.jpg" width="400"> |
 | --- | --- |
 | The dashboard on a Mac | Screensaver, as a photo frame |
 
 ### Apple CarPlay / Android Auto
 
-| ![](resources/public/carplay.jpg) | ![](resources/public/androidauto.jpg) |
+| <img src="resources/public/carplay.jpg" width="400"> | <img src="resources/public/androidauto.jpg" width="400"> |
 | --- | --- |
 | Apple CarPlay | Android Auto |
 
