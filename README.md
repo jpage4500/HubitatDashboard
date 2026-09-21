@@ -3,7 +3,7 @@
 HD+ is a multiplatform app to view and control all of your Hubitat Hub devices. It runs on iPhone,
 iPad, Android, Mac, Windows and Linux — and all traffic stays **local** to your network.
 
-![](resources/public/desktop-main.jpg)
+![](resources/public/ipad-wall-glance.jpg)
 
 ---
 
@@ -11,30 +11,26 @@ iPad, Android, Mac, Windows and Linux — and all traffic stays **local** to you
 
 ### iPhone / iPad
 
-Download on the [App Store](https://apps.apple.com/us/app/hd-dashboard/id6759614539).
-
-There's also a [TestFlight beta](https://testflight.apple.com/join/Wdb6CEUh) which gets updates first.
+- Download on the [App Store](https://apps.apple.com/us/app/hd-dashboard/id6759614539)
+  - updates are typically 2-4 weeks behind the latest release
+- There's also a [TestFlight beta](https://testflight.apple.com/join/Wdb6CEUh) which gets updates first
 
 ### Android
 
-Download on [Google Play](https://play.google.com/store/apps/details?id=com.jpage4500.hd), or join
-the [beta](https://play.google.com/apps/testing/com.jpage4500.hd) to get updates earlier.
-
-Google Play also offers an [internal](https://play.google.com/apps/internaltest/4700852576427104399) testing track. It gets updates right away - no delay. However, it's capped at the first 100 users who join.
-
-There's also a sideload version with a few features that aren't in the Play version — download the
-latest `.apk` from [Releases](https://github.com/jpage4500/HubitatDashboard/releases) and update from
-inside the app afterwards (**About → Check for updates**).
+- Download on [Google Play](https://play.google.com/store/apps/details?id=com.jpage4500.hd)
+  - updates are typically 4-6 weeks behind the latest release
+- Join the [beta](https://play.google.com/apps/testing/com.jpage4500.hd)
+  - updates are typically 1-2 weeks behind the latest release
+- Google Play also offers an [internal](https://play.google.com/apps/internaltest/4700852576427104399) testing track
+  - updates are instant. However, it requires sending [me](mailto:joe.page.software@gmail.com) your email address so I can add you to the internal test group
+- Finally, there's also a sideload version with a few features that aren't in the Play version — download from [Releases](https://github.com/jpage4500/HubitatDashboard/releases)
+  - update from the app afterwards (**About → Check for updates**).
 
 ### Desktop (Mac, Windows, Linux)
 
-I'm using an app/tool called JDeploy which handles building an installer for Mac/Windows/Linux and
-also auto-updates the app with no extra work!
+- Download your platform's installer [here](https://github.com/jpage4500/HubitatDashboard/releases).
+  - when installing, keep the box labeled 'update automatically' checked and each time you run the app it'll check for the latest and update.
 
-Download your platform's installer [here](https://github.com/jpage4500/HubitatDashboard/releases).
-
-When installing, keep the box labeled 'update automatically' checked and each time you run the app
-it'll check for the latest and update.
 <br/><img src="resources/public/desktop-installer.png" width="200">
 
 ---
@@ -46,6 +42,7 @@ it'll check for the latest and update.
 - display **full screen** - *(Android & iOS)*
 - **keep the screen on** - full brightness during the hours you choose *(Android & iOS)*
 - **Flexible** - fully customize the interface (icons, tile size, text size, colors)
+- **Glance mode** - a second dashboard with bigger type, laid out to fit one screen and read from across the room
 - All traffic is **LOCAL** to your network. No 3rd party server is used. There is also a remote access option (uses `cloud.hubitat.com`) that can be setup for use outside the house.
 - **Drag and Drop** sorting
 - **Group by Device Type** - automatically group devices into folders (ie: group by 'Indoor Lights')
@@ -68,28 +65,39 @@ it'll check for the latest and update.
 
 ### iPhone
 
-| ![](resources/public/iphone-main.jpg) | ![](resources/public/iphone-edit.jpg) | ![](resources/public/iphone-thermostat.jpg) |
-| --- | --- | --- |
+| ![](resources/public/iphone-main.jpg) | ![](resources/public/iphone-glance.jpg) | ![](resources/public/iphone-edit.jpg) | ![](resources/public/iphone-thermostat.jpg) |
+| --- | --- | --- | --- |
+| Dashboard | Glance mode | Customize a tile | Tap to control |
 
 ### iPad
 
-| ![](resources/public/ipad-main.jpg) | ![](resources/public/ipad-video.jpg) | ![](resources/public/ipad-photo.jpg) |
+| ![](resources/public/ipad-main.jpg) | ![](resources/public/ipad-glance.jpg) | ![](resources/public/ipad-rooms.jpg) |
 | --- | --- | --- |
+| Dashboard | Glance mode | Jump to a room |
+
+On the wall, in landscape:
+
+| ![](resources/public/ipad-wall.jpg) | ![](resources/public/ipad-wall-glance.jpg) | ![](resources/public/ipad-cameras.jpg) |
+| --- | --- | --- |
+| A whole house without scrolling | Glance mode | Any camera, full screen |
 
 ### Android
 
-| ![](resources/public/android-main.jpg) | ![](resources/public/android-cameras.jpg) | ![](resources/public/android-device.jpg) |
-| --- | --- | --- |
+| ![](resources/public/android-main.jpg) | ![](resources/public/android-glance.jpg) | ![](resources/public/android-cameras.jpg) | ![](resources/public/android-radar.jpg) |
+| --- | --- | --- | --- |
+| Dashboard | Glance mode | Cameras | Radar |
 
 ### Desktop
 
 | ![](resources/public/desktop-radar.jpg) | ![](resources/public/desktop-photo.jpg) |
 | --- | --- |
+| The dashboard on a Mac | Screensaver, as a photo frame |
 
 ### Apple CarPlay / Android Auto
 
 | ![](resources/public/carplay.jpg) | ![](resources/public/androidauto.jpg) |
 | --- | --- |
+| Apple CarPlay | Android Auto |
 
 ---
 
@@ -112,6 +120,7 @@ still find the Maker API app ID and tokens for you.
 # Guides
 
 - [Wake an iPad every morning](docs/public/ios-wake.md) - let the screen sleep overnight and have the dashboard back on the wall before you are. Covers the smart-plug + Shortcuts trick, Dashboard Mode's night options and Guided Access kiosk mode.
+- [How Glance mode works](docs/public/glance.pdf) - How Glance mode builds your dashboard
 
 ---
 
@@ -119,7 +128,8 @@ still find the Maker API app ID and tokens for you.
 
 - [Support WIKI Page](https://joe-page-software.gitbook.io/hubitat-dashboard)
 - [Community thread](https://community.hubitat.com/t/release-hd-hubitat-dashboard-for-ios-android-mac-windows-linux/162249) - iOS, Android, Mac, Windows and Linux
-- [Original HD+ for Android](https://community.hubitat.com/t/release-hd-android-dashboard/41674) - still recommended for older devices and Fire tablets
+- [Original HD+ for Android](https://community.hubitat.com/t/release-hd-android-dashboard/41674) - what this project is based on
+- [Privacy Policy](docs/public/PRIVACY.md) - what stays on your device, what the app contacts and when
 
 Bugs are expected but feel free to report anything to the community link above. If you can include a
 screenshot and device logs that'll help me see and reproduce the issue so that's the #1 way to get
