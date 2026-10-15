@@ -114,6 +114,8 @@ your device's IP address and whatever the request carries, under its own privacy
 | [Google Static Maps](https://policies.google.com/privacy) | Coordinates, your API key | Location map tile, only with a key you added |
 | [Google Pollen](https://policies.google.com/privacy) | Coordinates, your API key | Pollen tile, only with a key you added |
 | [pollen.com](https://www.pollen.com/privacy) | A US ZIP code | Pollen tile, in the US |
+| [US Census Bureau](https://www.census.gov/about/policies/privacy.html) | The tile's coordinates, to find its ZIP code | Pollen tile, in the US, when it was added by city |
+| [Open-Meteo](https://open-meteo.com/en/terms) | The tile's coordinates | Pollen tile, in Europe |
 | [Open-Meteo](https://open-meteo.com/en/terms) | The place name you type | Searching for a location when adding a tile |
 | [Unsplash](https://unsplash.com/privacy) | A search term you type | Only while picking a background or image from Unsplash |
 | [Iconify](https://iconify.design/privacy) | A search term you type | Only while searching for a tile icon |
